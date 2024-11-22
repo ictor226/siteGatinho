@@ -1,0 +1,98 @@
+.logo{
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+    margin: 0;  
+    
+}
+.tela{
+    /* text-align: center;
+    
+    width: 585px;
+    height: 690px;
+    top: 167px;
+    left: 427px;
+    gap: 0px;
+    border-radius: 27px ;
+
+    transform: translate(-50%, -50%); */
+     
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        background: rgba(255, 255, 255, 0.50);
+        padding: 20px; 
+        border-radius: 10px; 
+        width: 350px; 
+        text-align: center; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+}
+body{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.campo{
+    height: 40px;
+    width: 270px;
+    border: 0;
+    margin-bottom: -16px;
+    border-radius: 10px;
+border: 1px solid #8AC0FF;
+background: #FFF;
+}
+.campos{
+    height: 40px;
+    width: 270px;
+    border: 0;
+    margin-bottom: 47px;
+    border-radius: 10px;
+border: 1px solid #8AC0FF;
+background: #FFF;
+}
+.texto01{
+    margin-left: -160px;
+    
+}
+.texto02{
+    margin-left: -160px;
+    margin-top: -12px;
+    margin-bottom: 49px;
+}
+.texto03{
+    /* margin-left: -160px;
+    margin-bottom: -36px; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.texto03 > h6{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4f4f4f;
+    flex-wrap: nowrap;
+}
+.texto03 > hr{
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: #e7e7e7;
+}
+.img{
+    gap: 26px;
+    width: 55px;
+    height: 55px;
+    border-radius: 4px;
+    display: inline-block; /* Para os elementos ficarem na mesma linha */
+    padding: 10px;
+    
+}
+button{
+    width: 215px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #0366FF;
+}
